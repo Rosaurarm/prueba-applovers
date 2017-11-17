@@ -1,0 +1,140 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+
+}
+
+img {
+  vertical-align: middle;
+}
+
+  header{
+    position: fixed;
+    background: white;
+    width: 93%;
+  }
+
+  header>img{
+    float: left;
+
+    z-index:1
+
+
+  }
+}
+#segunda-section{
+  background.image: url../assers/image..;
+  background:
+  height: 500px;
+  color: white;
+  text-align: center;
+  }
+#segunda-section>div{
+  padding-top:100px;
+}
+#segunda-section>div>a{
+color: white;
+background-color: green;
+padding: 10px 15px
+display:inline-block;
+margin top:20px;
+}
+#tercera-section{
+  background-color: #12c7;
+  text-aling:center;
+  color: white;
+  padding-bottom: 40px;
+}
+#tercera-section>div>h2{
+  padding: 40px 0;
+
+}
+cuarta-seccion{
+  text-align: center;
+}
+#cuarta-section>div>h2{
+
+  padding: 20% 0;
+}
+
+#cuarta-seccion>div>image{
+  width: 100%;
+}
+
+#cuarta-seccion>imagenes-muchas>div{
+  display:inline-block;
+  width: 27%;
+  margin:15px;
+  }
+
+  #cuarta-seccion>imagenes-muchas>div>img{
+  width: 100%;
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
